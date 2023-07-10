@@ -1,0 +1,42 @@
+@font-face {
+  src: url(Hartical.ttf);
+  font-family: Hartical;
+}
+@font-face {
+  src: url(Neue.otf);
+  font-family: Neue;
+}
+@font-face {
+  src: url(Arsenica.ttf);
+  font-family: Arsenica;
+}
+
+
+
+
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  /* background-c: ,url(Resources/balloon-min.jpg); */
+  background: linear-gradient(#000000d5,#000000d5);
+}
+
+.bg {
+  z-index: -2;
+}
+
+.nav{
+  width: 96%;
+  height: 70px;
+  /* background-color: #000000; */
+  border-radius: 10px;
+}
+
+.logo {
+  width: auto;
+  height: 10vh;
+  margin:10px 2% 0 2%;
+
+}
