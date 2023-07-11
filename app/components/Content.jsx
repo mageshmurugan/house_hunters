@@ -18,7 +18,6 @@ import img17 from "../styles/img17.jpg";
 import img18 from "../styles/img18.jpg";
 import img19 from "../styles/img19.jpg";
 import img20 from "../styles/img20.jpg";
-import { headers } from "next/dist/client/components/headers";
 
 export const Content = [
   {
@@ -148,6 +147,6 @@ export const contact = [
     heading: "Social Media",
     paragraph:
       "Connect with us on social media to stay updated with the latest news, announcements, and property trends. Follow us on instagram, twitter for engaging content, helpful tips, and community interactions.",
-    img: img16,
+    img: img20,
   },
 ];
