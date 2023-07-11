@@ -10,58 +10,53 @@
   src: url(Arsenica.ttf);
   font-family: Arsenica;
 }
-
-@font-face{
+@font-face {
   src: url(Catchy.ttf);
   font-family: Catchy;
 }
-
 .header {
   min-height: 100vh;
   width: 100%;
   position: relative;
   /* background: linear-gradient(#000000a9,#000000d2); */
-  background:#000000a4;
+  background: rgba(0, 0, 0, 0.6431372549);
 }
 
 .bg {
   z-index: -2;
 }
 
-
-
 .logo {
   position: absolute;
   width: auto;
   height: 10vh;
-  margin:15px 2% 0 2%;
+  margin: 15px 2% 0 2%;
 }
 
-.center{
+.center {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
   height: 100vh;
   width: 100%;
-  color:  #FFFD47;
+  color: #FFFD47;
   font-family: Hartical;
   padding-left: 25px;
 }
 
-.center h1{
+.center h1 {
   font-size: 50px;
   font-family: Arsenica;
   margin-bottom: 10px;
 }
-.center q{
+
+.center q {
   font-size: 20px;
   font-family: Neue;
-
 }
 
-
-.center button{
+.center button {
   margin: 15px 0 0 10px;
   background-color: #FFFD47;
   border: none;
@@ -71,41 +66,34 @@
   font-size: 20px;
   color: #000;
   cursor: pointer;
- 
 }
 
-.center button a{
-  text-decoration: none;
-  color: #000;
-
-}
-.center button a:active{
+.center button a {
   text-decoration: none;
   color: #000;
 }
 
-@media(min-width:550px){
-  .center{
+.center button a:active {
+  text-decoration: none;
+  color: #000;
+}
+
+@media (min-width: 550px) {
+  .center {
     align-items: center;
   }
-  .center h1{
+  .center h1 {
     font-size: 65px;
   }
-  .logo{
+  .logo {
     height: 15vh;
   }
 }
-
-
-
-
 .section_1 {
   width: 100%;
   height: auto;
   /* background-color: #F4F1ED; */
   background-color: white;
-
-
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -152,6 +140,14 @@
     justify-content: space-around;
     align-items: center;
   }
+  .body1 h1{
+  font-size: 55px;
+
+  }
+  .body1 p{
+  font-size: 35px;
+
+  }
   .body1:nth-child(1) {
     margin-top: 40px;
   }
@@ -174,26 +170,23 @@
     height: 60vh;
   }
 }
-
-.footer{
+.footer {
   min-height: 100vh;
   width: 100%;
   position: relative;
-  background:#000000a4;
+  background: rgba(0, 0, 0, 0.6431372549);
 }
-
-
 
 .ftimg {
   z-index: -2;
 }
 
-.ft{
+.ft {
   position: absolute;
   bottom: 1px;
   width: 100%;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   background-color: #000;
@@ -203,84 +196,77 @@
   z-index: 2;
 }
 
-.ft a{
+.ft a {
   color: #FFFD47;
   text-decoration: none;
 }
 
-.tag span{
+.tag span {
   padding: 0 13px;
 }
 
-.ftc{
+.ftc {
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items:flex-start;
+  align-items: flex-start;
   flex-direction: column;
   padding-left: 20px;
 }
 
-
-.ftc1 h1{
+.ftc1 h1 {
   color: #FFFD47;
   font-size: 50px;
   padding: 8px 0;
   font-family: Arsenica;
 }
-.ftc2 h2{
+
+.ftc2 h2 {
   color: #FFFD47;
   padding: 8px 0;
   font-size: 20px;
-  font-family:Neue;
+  font-family: Neue;
 }
 
-.ftsoc{
+.ftsoc {
   margin-left: 18px;
   display: flex;
   flex-direction: column;
 }
 
-.ftsoc a{
+.ftsoc a {
   padding: 3px 0;
   color: #FFFD47;
   font-family: Arsenica;
 }
 
-.ftsoc span{
-  padding:0 0 0 15px;
+.ftsoc span {
+  padding: 0 0 0 15px;
 }
 
-
-@media(min-width:650px){
-  .ftc{
+@media (min-width: 650px) {
+  .ftc {
     flex-direction: row;
-  align-items:center;
-  justify-content: space-between;
-  width: 75%;
-  margin: auto;
-  padding-left: 0;
-
-
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    padding-left: 0;
   }
-  .ftc1{
+  .ftc1 {
     text-align: left;
     width: 40%;
     padding-bottom: 13vh;
   }
-  .ftc1 h1{
+  .ftc1 h1 {
     font-size: 75px;
-    
   }
-
-  .ftc2{
+  .ftc2 {
     padding-right: 10%;
   }
 }
-
-
-.navc{
+.navc {
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -292,12 +278,12 @@
   flex-direction: column;
 }
 
-.navca{
+.navca {
   display: flex;
   flex-direction: column;
 }
 
-.navca a{
+.navca a {
   color: #FFFD47;
   padding: 25px 0;
   font-size: 30px;
@@ -305,12 +291,12 @@
   font-family: Arsenica;
 }
 
-.navb{
+.navb {
   cursor: pointer;
   position: absolute;
   color: #FFFD47;
   background-color: transparent;
- font-size: 5vh;
- right: 13px;
- top: 24px;
+  font-size: 5vh;
+  right: 13px;
+  top: 24px;
 }
