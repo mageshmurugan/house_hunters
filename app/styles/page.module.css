@@ -132,7 +132,7 @@
   margin: 3vh auto;
 }
 
-@media (min-width: 730px) {
+@media (min-width: 1230px) {
   .body1 {
     width: 75%;
     margin: auto;
